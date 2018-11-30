@@ -10,10 +10,10 @@ var num3 = 0;
 var num4 = 0;
 var winSound = document.createElement('audio');
 document.body.appendChild(winSound);
-winSound.src = 'assets/sounds/win.wav'
+winSound.src = 'assets/Sounds/win.wav'
 var loseSound = document.createElement('audio');
 document.body.appendChild(loseSound);
-loseSound.src = 'assets/sounds/lose.wav'
+loseSound.src = 'assets/Sounds/lose.wav'
 
 // Setting functions
 function reset() {
